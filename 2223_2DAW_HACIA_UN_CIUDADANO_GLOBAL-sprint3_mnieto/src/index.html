@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang=es>
+	<head>
+		<meta charset=utf-8 />
+		<meta name=viewport content='width=device-width, initial-scale=1' />
+		<meta name=author content='Manuel Nieto Benítez, Rubén Sancho Jiménez' />
+		<title>PROYECTO-F</title>
+		<link rel="stylesheet" href="./css/reset.css">
+		<link rel="stylesheet" href="./css/style.css">
+	</head>
+	<body>
+		<div id="divvistaMenu">
+			<main id="menu">
+				<div id="tituloLogo">
+					<h1>WorldView</h1>
+					<img src="./img/logo.jpeg">
+				</div>
+				<div id="opcionesMenu">
+					<a>
+						<p>Iniciar</p>
+					</a>
+					<a>
+						<p>Ranking</p>
+					</a>
+					<a>
+						<p>Formulario</p>
+					</a>
+				</div>
+			</main>
+		</div>
+		<div id="divvistaMapa">
+			<nav>
+				<p class="puntosMensaje">Puntuación: 0</p>
+				<ul>
+					<li>
+						<a class="verMenu">
+							Inicio
+						</a>
+					</li>
+					<li>
+						<a class="verRanking">
+							Rankings
+						</a>
+					</li>
+				</ul>
+			</nav>
+			<main class="mainJuego">
+				<button id="boton_eu1">Europa</button>
+				<button id="boton_eu2">Asia</button>
+				<button id="boton_eu3">Oceanía</button>
+				<button id="boton_eu4">América del Norte</button>
+				<button id="boton_eu5">América del Sur</button>
+				<button id="boton_eu6">África</button>
+			</main>
+		</div>
+		<div id="divvistaPreg">
+			<nav>
+				<p class="puntosMensaje">Puntuación: 0</p>
+				<ul>
+					<li>
+						<a class="verMenu">
+							Inicio
+						</a>
+					</li>
+					<li>
+						<a class="verRanking">
+							Rankings
+						</a>
+					</li>
+				</ul>
+			</nav>
+			<main class="mainJuego">
+				<div>
+					<img src="img/logo.png" alt="Foto continente" id="imagenInfo">
+					<br>
+					<div id="informacion">
+						Información
+					</div>
+				</div>
+				<div>
+					<div id="divProblemas">
+						<h2 class="encabezados">NOMBRE DEL PROBLEMA</h2>
+						<div id="preguntaContainer" class="problemas">
+							<button id="pregunta1">SOLUCIÓN A</button>
+						</div>
+						<div id="opcionesContainer" class="problemas">
+							<button id="pregunta2">SOLUCIÓN B</button>
+						</div>
+						<div id="opcionesContainer" class="problemas">
+							<button id="pregunta3">SOLUCIÓN C</button>
+						</div>
+					</div>
+					<button id="botonAceptar">ACEPTAR</button>
+				</div>
+			</main>
+		</div>
+		<div id="divvistaRef">
+			<nav>
+				<ul>
+					<li>
+						<a class ="verMenu">
+							Inicio
+						</a>
+					</li>
+				</ul>
+			</nav>
+			<main class="mainJuego">
+				<div id="divPuntuacion"> 
+					<h1>Reflexión</h1>
+					<form action="ranking.html" method="post">
+						<fieldset>REF</fieldset>
+						<p id="puntuacionRef">0 Puntos</p>
+						<a>Continuar</a>
+					</form>
+				</div>
+			</main>
+		</div>
+		<div id="divvistaCont">
+			<nav>
+				<p class="puntosMensaje">Puntuación: 0</p>
+				<ul>
+					<li>
+						<a class="verMenu">
+							Inicio
+						</a>
+					</li>
+					<li>
+						<a class="verRanking">
+							Rankings
+						</a>
+					</li>
+				</ul>
+			</nav>
+			<main class="mainJuego">
+				<div id="infoContinente">
+					<div id="nombreContinente"></div>
+					<br>
+					<img src="img/logo.png" alt="Foto continente" id="imagenInfo">
+					<br>
+					<div id="informacion">
+						Información
+					</div>
+				</div>
+				<div>
+					<div id="divProblemas">
+						<h2 class="encabezados">PROBLEMAS DEL CONTINENTE</h2>
+						<div id="preguntaContainer" class="problemas">
+							<button id="problema_1">Problema1</button>
+						</div>
+						<div id="opcionesContainer" class="problemas">
+							<button id="problema_2">Problema2</button>
+						</div>
+						<div id="opcionesContainer" class="problemas">
+							<button id="problema_3">Problema3</button>
+						</div>
+						Control + B para volver atrás a elección de continente
+					</div>
+				</div>
+			</main>
+		</div>
+		<div id="divvistaRank">
+			<nav>
+				<p class="puntosMensaje">Puntuación: 0</p>
+				<ul>
+					<li>
+						<a class="verMenu">
+							Volver
+						</a>
+					</li>
+				</ul>
+			</nav>
+			<main class="mainJuego">
+				<div>
+					<table id="ranking">
+						<tr><th colspan="2">Ranking</th></tr>
+						<tr>
+							<td id="top1">Pepito1</td>
+							<td>2000 puntos</td>
+						</tr>
+						<tr>
+							<td id="top2">Pepito2</td>
+							<td>1900 puntos</td>
+						</tr>
+						<tr>
+							<td id="top3">Pepito3</td>
+							<td>1800 puntos</td>
+						</tr>
+						<tr>
+							<td>Pepito4</td>
+							<td>1700 puntos</td>
+						</tr>
+						<tr>
+							<td>Pepito5</td>
+							<td>1600 puntos</td>
+						</tr>
+					</table>
+				</div>
+			</main>
+		</div>
+		<div id="divvistaForm">
+			<nav>
+				<ul>
+					<li>
+						<a class="verMenu">
+							Inicio
+						</a>
+					</li>
+				</ul>
+			</nav>
+			<main class="mainJuego">
+				<div id="divPuntuacion">
+					<h1>Guardar puntuación:</h1>
+					<form>
+						<input type="text" id="username" placeholder="Introduce tu nombre">
+						<p id="usernameError" style="color: red;"></p>
+						<p class="puntosMensaje">0 Puntos</p>
+						<input type="submit" value="Enviar">
+						<a>Cancelar</a>
+					</form>
+				</div>
+			</main>
+		</div>
+		<script type=module src=js/controladores/controlador.js></script>
+	</body>
+</html>
